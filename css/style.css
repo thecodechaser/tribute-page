@@ -16,12 +16,15 @@ text-align: center;
 #image{
 display: block;
 margin: auto;
+height: auto;
+max-width: 100%;
 }
 
-#imageDiv{
+#img-div{
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
+    align-content: center;
 }
 
 .center{
