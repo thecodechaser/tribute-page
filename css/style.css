@@ -6,6 +6,7 @@ body{
 #main{
     background-color: #eee;
      border-radius: 5px;
+     padding-top: 40px;
 }
 
 #titleDiv{
@@ -20,11 +21,23 @@ margin: auto;
 #imageDiv{
     margin-left: 20px;
     margin-right: 20px;
+    background-color: white;
 }
 
 .center{
     text-align: center;
 }
 ul{
-    text-align: center;
+    display: table;
+    margin: 0 auto;
+    width: 550px;
+    font-family: 1rem;
+}
+
+footer{
+    padding-bottom: 40px;
+}
+
+#footerHeading{
+    font-size: 20px;
 }
